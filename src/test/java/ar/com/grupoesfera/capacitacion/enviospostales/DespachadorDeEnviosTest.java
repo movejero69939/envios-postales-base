@@ -26,8 +26,13 @@ public class DespachadorDeEnviosTest {
 
         cuandoCalculoElCosto();
 
-        entoncesVerificoQueElCostoEs(Double.valueOf(50));
+        entoncesVerificoQueElCostoEs(Double.valueOf(50) + getComisionBicicleta());
     }
+
+    private Double getComisionBicicleta(){
+        return Double.parseDouble(System.getProperty("COMISION"));
+    }
+
 
     @Test
     public void con7PaquetesElCostoDebeSer80() {
