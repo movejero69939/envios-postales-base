@@ -25,3 +25,7 @@ jar {
         attributes 'Main-Class': 'ar.com.grupoesfera.capacitacion.enviospostales.Aplicacion'
     }
 }
+
+test {
+    systemProperties = System.properties
+}
