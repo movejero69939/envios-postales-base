@@ -1,4 +1,4 @@
 language: java
 
 env:
-  - COMISION="10"
+  - COMISION=10
