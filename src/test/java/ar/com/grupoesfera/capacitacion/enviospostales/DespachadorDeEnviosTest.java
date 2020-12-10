@@ -30,7 +30,7 @@ public class DespachadorDeEnviosTest {
     }
 
     private Double getComisionBicicleta(){
-        return Double.parseDouble(System.getProperty("COMISION"));
+        return Double.parseDouble(System.getenv("COMISION"));
     }
 
 
