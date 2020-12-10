@@ -1,5 +1,4 @@
 language: java
 
 env:
-  global:
-    - COMISION="10"
+  - COMISION="10"
