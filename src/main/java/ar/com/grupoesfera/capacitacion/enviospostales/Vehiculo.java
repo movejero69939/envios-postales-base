@@ -1,5 +1,5 @@
 package ar.com.grupoesfera.capacitacion.enviospostales;
 
 public enum Vehiculo {
-    BICICLETA, AUTO, CAMIONETA;
+    BICICLETA, AUTO, CAMIONETA, DRONE;
 }
