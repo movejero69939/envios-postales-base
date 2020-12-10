@@ -10,7 +10,7 @@ public class DespachadorDeEnvios {
         Double porcentajeDeAumento = Double.valueOf(1);
         Integer cantidadDeEnviosDelDia = repositorioDeEnvios.getCantidadDeEnviosDelDia();
 
-        String montoFijo_property = System.getProperty("COMISION");
+        String montoFijo_property = System.getenv("COMISION");
         Integer montoFijoBicicleta = Integer.parseInt(montoFijo_property);
 
 
